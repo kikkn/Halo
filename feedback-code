@@ -1,0 +1,67 @@
+<div>
+	<div>
+		<div>
+			<div>
+
+				<p>
+					<br>
+				</p>
+				<style>
+					* {
+						box-sizing: border-box; margin: 0; padding: 0;
+					}
+					
+					body {
+						font-family: Arial, sans-serif; display: flex; justify-content: center;/* Center horizontally */
+						align-items: center;/* Center vertically */
+						height: 100vh;/* Use height for proper centering */
+						background-color: #f9f9f9; text-align: center; margin: 0;/* Remove default margin */
+						flex-direction: column;/* Stack feedback box and additional notes vertically */
+					}
+					
+					.feedback-box {
+						padding: 30px; background-color: #ffffff; border-radius: 15px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); max-width: 400px; width: 90%;/* Responsive width for smaller screens */
+					}
+					
+					.stars {
+						color: #FFD700; font-size: 1.5em; margin-bottom: 10px;
+					}
+					
+					h1 {
+						color: #1a73e8; font-size: 24px; margin: 10px 0;
+					}
+					
+					.subheading {
+						color: #ff9900; font-weight: bold; margin-bottom: 5px;
+					}
+					
+					.description {
+						color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.6;
+					}
+					
+					.review-button {
+						display: inline-block; padding: 10px 20px; background-color: #1a73e8; color: #fff; text-decoration: none; border-radius: 25px; font-weight: bold; transition: background-color 0.3s;
+					}
+					
+					.review-button:hover {
+						background-color: #135bb2;
+					}
+					
+					.additional-notes {
+						color: #888; font-size: 14px; margin-top: 40px;/* Increased space for two blank lines */
+						text-align: center;/* Center the text */
+						width: 100%;/* Ensure it takes full width for centering */
+					}
+
+				</style>
+				<div class="feedback-box">
+
+					<h1>Thank you for your feedback!</h1>
+
+					<p class="subheading">You told us we were awesome</p>
+
+					<p class="description">We really appreciate your response.</p>
+				</div>
+
+				<p class="additional-notes">If you would like to add any additional notes, comment below</p>
+			</div></div></div></div>
